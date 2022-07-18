@@ -16,3 +16,4 @@ def currentLili(setting, value):
         lili_config_json["blinkConfig"]["blinkTime"] = value
     with open('lili_config.json', 'w', encoding='utf-8') as w:
         json.dump(lili_config_json, w, indent=4)
+init()
